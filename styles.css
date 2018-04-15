@@ -30,7 +30,7 @@ p {
 
 
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 610px) {
   body {
     background-position: 50% -110px;
   }
@@ -97,8 +97,29 @@ p {
 
 .social {
   font-size: 1.2em;
+  display: flex;
+  align-items: center;
 }
 
-.social ul {
-  list-style-type: none;
+.socialLink {
+  text-decoration: none;
+  color: white;
+  font-size: 1em;
+}
+
+.fa {
+  /* padding: 20px; */
+  border-style: solid;
+  border-width: 2px;
+  border-color: white;
+  font-size: 1em;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  /* text-decoration: none; */
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0.2em 0.5em 0.2em 1em; /* top, right, bottom, left */
 }
