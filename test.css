@@ -1,0 +1,14 @@
+.flexitem {
+  background-color: #8cacea;
+  width: 100px;
+  height: 100px;
+  margin: 8px;
+  padding: 4px;
+}
+
+.pagecontent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  min-height: 100vh;
+}
