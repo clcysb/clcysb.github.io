@@ -94,6 +94,32 @@ p {
   justify-content: center;
 }
 
+.ccsudburycard {
+  display: flex;
+  flex-direction: column;
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(127, 201, 66);
+  background-color: rgb(170, 240, 113);
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  color: white;
+  font-size: 1.5em;
+  justify-content: center;
+  align-items: center;
+}
+
+.ccsudburytitle {
+  display: flex;
+  justify-content: center;
+}
+
+.ccsudburydesc {
+  display: flex;
+  justify-content: left;
+}
+
 .workshopcard p {
   color: black;
 }
